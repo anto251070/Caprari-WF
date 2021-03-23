@@ -1,0 +1,21 @@
+{
+    "id": "formtest",
+    "schemaVersion": "1.1.0",
+    "name": "FORMTEST",
+    "revision": "1.0",
+    "type": "task",
+    "readOnly": false,
+    "content": [
+        {
+            "id": "test",
+            "type": "string",
+            "label": "TEST",
+            "readOnly": false,
+            "value": "${context.testProperty}",
+            "constraints": {
+                "required": false
+            }
+        }
+    ],
+    "decisions": []
+}
